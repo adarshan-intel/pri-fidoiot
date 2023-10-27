@@ -91,8 +91,8 @@ default_onr_ip="host.docker.internal"
 default_api_user="apiUser"
 default_mfg_api_passwd=""
 default_onr_api_passwd=""
-mfg_port="8038"
-onr_port="8043"
+mfg_port="8443"
+onr_port="8443"
 
 attestation_type=${attestation_type:-$default_attestation_type}
 mfg_ip=${mfg_ip:-$default_mfg_ip}
